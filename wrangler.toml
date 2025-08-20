@@ -1,0 +1,35 @@
+# Cloudflare Pages Configuration
+# This file configures your Cloudflare Pages project
+
+name = "black-myth-zhongkui-site"
+compatibility_date = "2024-01-01"
+
+[build]
+command = ""
+publish = "."
+
+[env.production]
+name = "black-myth-zhongkui-site"
+
+[env.preview]
+name = "black-myth-zhongkui-site-preview"
+
+# Custom domain configuration
+[[env.production.routes]]
+pattern = "blackmythzhongkui.site/*"
+zone_name = "blackmythzhongkui.site"
+
+# Redirects
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+# Headers for security and performance
+[[env.production.headers]]
+for = "/*"
+[env.production.headers.values]
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+X-XSS-Protection = "1; mode=block"

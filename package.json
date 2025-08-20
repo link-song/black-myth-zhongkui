@@ -1,0 +1,39 @@
+{
+  "name": "black-myth-zhongkui-site",
+  "version": "1.0.0",
+  "description": "A responsive, SEO-optimized landing page for Black Myth: Zhong Kui game",
+  "main": "index.html",
+  "scripts": {
+    "preview": "./preview.sh",
+    "deploy": "./deploy.sh",
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'No build step needed for static site'",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "black-myth",
+    "zhong-kui",
+    "game",
+    "landing-page",
+    "chinese-mythology",
+    "action-adventure",
+    "fan-site"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/black-myth-zhongkui-site.git"
+  },
+  "homepage": "https://blackmythzhongkui.site",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
