@@ -201,6 +201,14 @@ body {
     border: none;
 }
 
+/* Lite YouTube Embed - ensure it fills the container properly */
+.video-container lite-youtube {
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    border-radius: 15px !important;
+}
+
 /* Features Section */
 .features-section {
     padding: 5rem 0;

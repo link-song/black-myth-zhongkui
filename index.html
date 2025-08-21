@@ -23,6 +23,10 @@
     </script>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lite YouTube Embed for performance optimization -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/paulirish/lite-youtube-embed@master/src/lite-yt-embed.css" />
+    <script src="https://cdn.jsdelivr.net/gh/paulirish/lite-youtube-embed@master/src/lite-yt-embed.js"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -62,14 +66,7 @@
             <h2>Official Game Trailer</h2>
             <p class="section-description">Witness the stunning visuals and epic gameplay in the latest Black Myth: Zhong Kui trailer</p>
             <div class="video-container">
-                <iframe 
-                    src="https://www.youtube-nocookie.com/embed/NZ7VLcO06Ak?si=DODLZptJk-8chYBx" 
-                    title="Black Myth: Zhong Kui Official Trailer"
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen>
-                </iframe>
+                <lite-youtube videoid="NZ7VLcO06Ak"></lite-youtube>
             </div>
         </div>
     </section>
