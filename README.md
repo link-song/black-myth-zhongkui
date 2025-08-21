@@ -2,6 +2,8 @@
 
 A responsive, SEO-optimized landing page for the upcoming game "Black Myth: Zhong Kui".
 
+> **Latest Update**: Enhanced with lite-youtube-embed for better performance and PageSpeed optimization.
+
 ## Features
 
 - 🎮 Responsive design for all devices
